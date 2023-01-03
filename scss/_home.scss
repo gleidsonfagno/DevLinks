@@ -1,16 +1,16 @@
 :root{
   --text-color: white;
-  --bg-url:  url(../assets/bg-mobile.jpg.jpg); 
+  --bg-url:  url("../assets/bg-mobile.jpg.jpg"); 
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255,255,255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(../assets/moon-stars.svg);
+  --switch-bg-url: url("../assets/moon-stars.svg");
 }
 
 .light{
   --text-color: black;
-  --bg-url:  url(../assets/bg-Mobile-Light.png);
+  --bg-url:  url("../assets/bg-Mobile-Light.png");
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0,0,0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -78,7 +78,7 @@ body{
       height: 24px;
       background: var(--surface-color);
       border: 1px solid var(--stroke-color);
-      -webkit-backdrop-filter: blur(4px);
+      filter: blur(4px);
       border-radius: 9999px;
     }
   }
